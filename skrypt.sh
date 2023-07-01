@@ -26,7 +26,7 @@ case $1 in
         echo "--help          -  Wyświetla tę wiadomość"
         ;;
     "--init")
-        git clone https://github.com/dsw50229/lab4.git
+        git clone https://github.com/dsw50231/lab4.git
         export PATH=$PATH:$(pwd)
         ;;
     "-e" | "-error")
